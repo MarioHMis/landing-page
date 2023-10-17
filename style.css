@@ -17,7 +17,7 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items: end;
-    height: 85px;
+    height: 65px;
     padding: 5px 10%;
 
 
@@ -26,6 +26,7 @@ body {
 .header .logo {
     cursor: pointer;
     margin-right: auto;
+    
 }
 
 .header .logo img{
@@ -41,7 +42,7 @@ body {
   transform: scale(1.2);
 }
 
-,header .nav-links{
+.header .nav-links{
     list-style: none;
 }
 
@@ -66,7 +67,7 @@ body {
 .header .btn button{
     margin-left: 20px;
     font-weight: 700;
-    color: darkblue;
+    color: rgb(66, 5, 107);
     padding: 9px 25px;
     border: none;
     border-radius: 50px;
@@ -75,9 +76,10 @@ body {
 }
 
 .header .btn button:hover{
-    background-color: chocolate;
+    background-color: rgb(106, 42, 226);
     color-scheme: white;
     transform: scale(1.1);
+    color: white;
 }
 @media (max-width:700px){
     header{
@@ -87,4 +89,33 @@ body {
     nav{
         padding: 10px 0px;
     };
+}
+
+.dropdown{
+    min-width: 130px;
+    padding: 15px 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    position: absolute;
+    top: 40px;
+    border: 8px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 25px 50px -12px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.2s ease-in-out;
+}
+
+li:hover .dropdown{
+    opacity: 1;
+    visibility: visible;
+    top: 60px;
+}
+
+.dropdown a {
+    font-size: 14px;
+    border-bottom: 1px solid #83166b;
+    padding-bottom: 10px;
 }
