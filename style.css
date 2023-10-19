@@ -9,11 +9,11 @@
 }
 
 body {
-    background-color: #FFFFFF;
+    background-color: #f0edf7;
     padding: 0;
     margin: 0;
     text-align: center;
-    font-family: 'Roboto', arial;
+    
 }
 
 .container {
@@ -21,12 +21,12 @@ body {
     flex-direction: column;
 }
 
-/* Navbar Part */
+/* Navbar*/
 
 .navbar {
     display: flex;
     color: #F9FAF8;
-    background-color: #1F2937;
+    background-color: #9352b7;
     padding: 20px 0px 20px 100px;
     align-items: center;
 }
@@ -35,12 +35,14 @@ body {
     width: 84px;
     height: 84px;
     margin-right: auto;
+    border-radius: 8px;
 }
 
 .header-link {
     display: flex;
     margin-left: auto;
     padding: 0px 100px 0px 0px;  
+    font-weight: bold;
 }
 
 .header-link a {
@@ -48,21 +50,21 @@ body {
     color: #E5E7EB;
     font-size: 18px;
     padding: 10px;
-    font-family: 'Roboto', arial;
+   
 }
 
-/* Hero Part */
+/* Doctor */
 
-.hero {
+.doctor {
     display: flex;
     color: #F9FAF8;
-    background-color: #1F2937;
+    background-color: #5c83ba;
     align-items: center;
     justify-content: center;
     padding: 90px;
 }
 
-.hero-cta {
+.info {
     flex-basis: 400px;
     display: flex;
     flex-direction: column;
@@ -70,8 +72,8 @@ body {
     margin-right: 50px;
 }
 
-.hero-cta p {
-    font-family: 'Roboto', arial;
+.info p {
+    
     opacity: 0.7;
 }
 
@@ -80,15 +82,15 @@ h1 {
     font-weight: bold;
     color: #F9FAF8;
     margin: 0;
-    font-family: 'Roboto', arial;
+    
 }
 
-.hero button {
+.doctor button {
     display: block;
     text-align: center;
     width: 110px;
     border: none;
-    background: #3882f6;
+    background: #cc2a89;
     padding: 10px;
     border-radius: 8px;
     color: #fff;
@@ -97,9 +99,11 @@ h1 {
     font-weight: bold;
 }
 
-.hero-image img {
-    width: 500px;
+.doctor img {
+    width: auto;
     height: 350px;
+    border-radius: 5px;
+    opacity: 100;
 }
 
 /* Content Part */
@@ -119,7 +123,7 @@ h1 {
     width: 200px;
     height: 200px;
     object-fit: cover;
-    border: 4px solid #3882F6;
+    border: 4px solid #bc1ebc;
     border-radius: 15px;
     margin: 5px 20px 0px 20px;
 }
@@ -129,28 +133,27 @@ h1 {
 .quote {
     display: flex;
     flex-direction: column;
-    background-color: #E5E7EB;
+    background-color: #e3eaef;
     padding: 0 200px;
 }
 
 .quote p {
     font-size: 36px;
-    color: #1F2937;
+    color: #4b7f95;
     font-style: italic;
     font-weight: lighter;
-    font-family: 'Roboto', arial;
+    
 }
 
 .quote b {
     padding-bottom: 20px;
     padding-right: 10px;
-    font-family: 'Roboto', arial;
     text-align: right;
 }
 
 /* Sign Up Part */
 .sign-up {
-    background-color: #3882F6 ;
+    background-color: #d442b5 ;
     margin: 50px 200px;
     padding: 10px 80px;
     display: flex;
@@ -175,17 +178,15 @@ h1 {
 
 h3 {
     color: #fff;
-    font-family: 'Roboto', arial;
     padding: 0;
     margin: 30px 0px 0px 50px;
 }
 
 .signs-button button {
     color: #fff;
-    font-family: 'Roboto', arial;
     border-color: #fff;
     border-radius: 8px;
-    background-color: #3882F6;
+    background-color: #cc2a89;
     padding: 5px 25px;
     font-size: 15px;
 }
@@ -193,7 +194,7 @@ h3 {
 /* Footer */
 
 .footer {
-    background-color: #1F2937;
+    background-color: #41103f;
     color: #fff;
-    font-family: 'Roboto', arial;
+    
 }
